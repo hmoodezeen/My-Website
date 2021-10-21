@@ -275,5 +275,9 @@ nav.sticky ul li a:hover {
   .footer-col{
     width: 100%;
 }
-
+}
+@media(max-width: 1125px){
+.row{
+    display: grid;
+}
 }
