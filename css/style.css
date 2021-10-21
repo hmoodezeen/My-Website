@@ -265,7 +265,7 @@ nav.sticky ul li a:hover {
     box-shadow: 0px 30px 40px 20px black;
 }
 .box p{
-    overflow:hidden;
+    overflow:auto;
 }
 /*responsive*/
 @media(max-width: 767px){
@@ -284,3 +284,12 @@ nav.sticky ul li a:hover {
     display: grid;
 }
 }
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #d6dee1
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #2f3543;
+  }
