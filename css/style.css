@@ -264,6 +264,9 @@ nav.sticky ul li a:hover {
     margin-left: -100px;
     box-shadow: 0px 30px 40px 20px black;
 }
+.box p{
+    overflow:hidden;
+}
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
